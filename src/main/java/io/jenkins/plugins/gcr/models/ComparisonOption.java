@@ -39,9 +39,13 @@ public class ComparisonOption {
         this.sonarProject = sonarProject;
     }
 
-    @DataBoundSetter
     public String getFixedCoverage() {
         return fixedCoverage;
+    }
+
+    @DataBoundSetter
+    public String setFixedCoverage(String fixedCoverage) {
+        this.fixedCoverage = fixedCoverage;
     }
 
     // Helpers
