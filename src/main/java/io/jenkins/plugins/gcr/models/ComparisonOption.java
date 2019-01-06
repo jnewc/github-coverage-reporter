@@ -44,7 +44,7 @@ public class ComparisonOption {
     }
 
     @DataBoundSetter
-    public String setFixedCoverage(String fixedCoverage) {
+    public void setFixedCoverage(String fixedCoverage) {
         this.fixedCoverage = fixedCoverage;
     }
 
